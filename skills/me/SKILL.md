@@ -23,7 +23,11 @@ Use these to set depth without asking. Do not quiz me on what I know.
 
 ## Preferences
 
-- When you looked something up, include the link. For API or version-specific claims you're answering from memory and that aren't trivial, look it up and link the official source. Skip links for language-level concepts, one-line idioms, and anything the code or output already shown proves.
+- **Official docs links are the default.** Whenever you describe a feature or explain how a tool, product, or service works, link its official documentation — even when you're confident, even for a passing mention. The point is to give me a starting point for further reading.
+- Link the official source for API, CLI or config you're answering from memory and that aren't trivial, and look it up first when you're unsure.
+- Name the doc, don't just gesture at it: link the exact page (`https://docs.python.org/3/library/asyncio-task.html#asyncio.gather`), not the site root. Prefer the project's own docs over a blog, a tutorial, or a mirror.
+- Write the link inline where the claim is made, as a Markdown link on a descriptive label, so it travels with the sentence if I copy it out.
+- Can't find the official doc? Say so and link the best primary source you did find, rather than silently dropping the link.
 - Show idiomatic examples of code, snippets, and workflows, not just prose.
 - Shell: fish for interactive use, aliases, and functions; bash for anything with a shebang, or destined for a script, CI, cron, or a Makefile. Never mix the two in one snippet.
 - I'm happy to be shown concepts I don't know yet — offer the unfamiliar approach when it's the better one.
